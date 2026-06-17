@@ -20,6 +20,15 @@ body {
   min-height: 100vh;
 }
 
+/* Ensure input text is always visible regardless of page-level color inheritance */
+input, select, textarea {
+  color: #111827;
+}
+
+.dark input, .dark select, .dark textarea {
+  color: #f9fafb;
+}
+
 .progress-track {
   height: 0.5rem;
   border-radius: 9999px;
